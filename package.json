@@ -1,0 +1,29 @@
+{
+  "name": "Alone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eron-Campos/Alone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eron-Campos/Alone/issues"
+  },
+  "homepage": "https://github.com/Eron-Campos/Alone#readme",
+  "dependencies": {
+    "discord-buttons": "^3.2.1",
+    "discord.js": "^12.5.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "firebase": "^8.7.0",
+    "parse-ms": "^2.1.0",
+    "socket.io": "^4.1.2"
+  }
+}

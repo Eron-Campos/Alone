@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title><%- client.user.username %></title>
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+  <body>
+    <div class="features">
+      <div class="cards">
+        <div class="card" style="width: 18rem;">
+            <div class='title'>Informações 
+              <img class="fotopeq borda" src="<%- client.user.avatarURL({ size: 32 }) %>"/>
+              <img class="foto borda" src="<%- client.user.avatarURL({ size: 128 }) %>"/>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Servidores: <field><%- client.guilds.cache.size %></field></h5>
+                <h5 class="card-title">Usuarios: <field><%- client.users.cache.size %></field></h5>
+                <h5 class="card-title">Status: <field><%- client.user.presence.status %></field></h5>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
