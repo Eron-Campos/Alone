@@ -28,13 +28,13 @@ fs.readdir('./commands/', (err, files) => {
 
 // Configuração da Firebase
 var firebaseConfig = {
-  apiKey: "AIzaSyDjU3suroBciDMDVM9rEZ-y5hNfDBZhpW4",
-  authDomain: "lushstrom-bot.firebaseapp.com",
-  databaseURL: "https://lushstrom-bot-default-rtdb.firebaseio.com",
-  projectId: "lushstrom-bot",
-  storageBucket: "lushstrom-bot.appspot.com",
-  messagingSenderId: "1020842296051",
-  appId: "1:1020842296051:web:5c797f8dae60ba1695ed86"
+  apiKey: process.env.apiKey,
+  authDomain: process.env.authDomain,
+  databaseURL: process.env.databaseURL,
+  projectId: process.env.projectId,
+  storageBucket: process.env.storageBucket,
+  messagingSenderId: process.env.messagingSenderId,
+  appId: process.env.appId
 };
 
 // Inicialização do Firebase
